@@ -12,6 +12,8 @@ public class DemoVariable {
 
         int age=23;
         int height=6;
+
+        String address="flat no 123/35 , Pune , MH";
         //23
 
         //546.67
