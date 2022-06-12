@@ -16,5 +16,7 @@ public class Exercise {
 
 
         System.out.println("Value of a and b after change a: "+a +" b:"+b);
+
+        // without using third variable swap value of a and b
     }
 }
