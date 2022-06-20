@@ -15,7 +15,7 @@ public class Book {
     public static void main(String[] args) {
         // TODO SYNTAX :  ClassName objName= new ClassName();
 
-        Book obj1= new Book();
+        Book obj1= new Book();// calling constructor
 
         // TODO : print  objName.propertyName
 

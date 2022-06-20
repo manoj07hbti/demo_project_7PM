@@ -11,7 +11,7 @@ public class Student {
 
         // TODO SYNTAX :  ClassName objName= new ClassName();
 
-        Student obj=new Student();
+        Student obj=new Student();// calling constructor
 
         System.out.println("Printing student name "+obj.name);
 
