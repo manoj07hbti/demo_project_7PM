@@ -1,4 +1,4 @@
-package class_and_object;
+package methods;
 
 public class CalCReturnType {
 
