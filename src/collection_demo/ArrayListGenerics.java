@@ -12,6 +12,8 @@ public class ArrayListGenerics {
         stringArrayList.add("Agra");
         stringArrayList.add("Pune");
         stringArrayList.add("Jaipur");
+        stringArrayList.add("Jaipur");
+        stringArrayList.add("Jaipur");
        // stringArrayList.add(33); not allowed
 
         return stringArrayList;
