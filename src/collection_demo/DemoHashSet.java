@@ -1,6 +1,7 @@
 package collection_demo;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class DemoHashSet {
 
@@ -9,7 +10,7 @@ public class DemoHashSet {
 
     public  HashSet <String> createStringHashset(){
 
-        HashSet <String> cities= new HashSet<>();
+        LinkedHashSet<String> cities= new LinkedHashSet<>();// to show data in sequence
 
         cities.add("Agra");
         cities.add("Pune");
