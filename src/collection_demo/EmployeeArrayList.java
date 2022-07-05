@@ -35,6 +35,11 @@ public class EmployeeArrayList {
             System.out.println("Printing Employee data in one line : "+employeeArrayList.get(i).getName() + " Salary: "+employeeArrayList.get(i).getSalary()+ " Dept: "+employeeArrayList.get(i).getDept());
         }
 
+        for (Employee var: employeeArrayList){
+
+            System.out.println("Printing data "+var.getName());
+        }
+
     }
 
 
