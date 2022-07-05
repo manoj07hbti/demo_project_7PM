@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class EmployeeArrayList {
 
-    public void createEmployeeList(){
+    public  ArrayList <Employee> createEmployeeList(){
 
         // Create ArrayList of Employee
 
@@ -26,6 +26,18 @@ public class EmployeeArrayList {
         employeeArrayList.add(employee2);
         employeeArrayList.add(employee3);
 
+        return employeeArrayList;
+
+
+
+    }
+
+
+    public static void main(String[] args) {
+
+        EmployeeArrayList obj= new EmployeeArrayList();
+        ArrayList<Employee> employeeArrayList= obj.createEmployeeList();
+
         for (int i=0; i<employeeArrayList.size(); i++){
 
             System.out.println("Printing Employee: "+employeeArrayList.get(i).getName());
@@ -39,13 +51,5 @@ public class EmployeeArrayList {
 
             System.out.println("Printing data "+var.getName());
         }
-
-    }
-
-
-    public static void main(String[] args) {
-
-        EmployeeArrayList obj= new EmployeeArrayList();
-        obj.createEmployeeList();
     }
 }
