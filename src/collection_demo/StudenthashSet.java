@@ -28,10 +28,14 @@ public class StudenthashSet {
         Student student4= new Student("Rahul",20,"A");
         System.out.println("Hashcode of student4: "+student4.hashCode());
 
+        Student student5= new Student("Rakesh",20,"B");
+        System.out.println("Hashcode of student5: "+student5.hashCode());
+
         studentHashSet.add(student1);
         studentHashSet.add(student2);
         studentHashSet.add(student3);
         studentHashSet.add(student4);
+        studentHashSet.add(student5);
 
         return  studentHashSet;
     }
